@@ -105,18 +105,16 @@
                     </tableView>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="Dwh-md-w6g">
-                        <rightBarButtonItems>
-                            <barButtonItem title="Speichern" id="6K4-J8-F1j">
-                                <connections>
-                                    <segue destination="V0y-mq-RhD" kind="unwind" unwindAction="unwindToUserList:" id="93S-uZ-FZY"/>
-                                </connections>
-                            </barButtonItem>
-                            <barButtonItem systemItem="add" id="Bzz-ny-QSW">
-                                <connections>
-                                    <segue destination="ufn-Hl-8N3" kind="presentation" identifier="AddItem" id="3jB-xB-Qcw"/>
-                                </connections>
-                            </barButtonItem>
-                        </rightBarButtonItems>
+                        <barButtonItem key="leftBarButtonItem" image="back" id="6K4-J8-F1j">
+                            <connections>
+                                <segue destination="V0y-mq-RhD" kind="unwind" unwindAction="unwindToUserList:" id="93S-uZ-FZY"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="Bzz-ny-QSW">
+                            <connections>
+                                <segue destination="ufn-Hl-8N3" kind="presentation" identifier="AddItem" id="3jB-xB-Qcw"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
@@ -229,8 +227,8 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="image" keyPath="emptyImage" value="rgb_circle_3"/>
-                                                    <userDefinedRuntimeAttribute type="image" keyPath="fullImage" value="rgb_circle_1"/>
+                                                    <userDefinedRuntimeAttribute type="image" keyPath="emptyImage" value="circled_empty"/>
+                                                    <userDefinedRuntimeAttribute type="image" keyPath="fullImage" value="circled_filled"/>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="minRating">
                                                         <integer key="value" value="0"/>
                                                     </userDefinedRuntimeAttribute>
@@ -249,8 +247,8 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="image" keyPath="emptyImage" value="rgb_circle_3"/>
-                                                    <userDefinedRuntimeAttribute type="image" keyPath="fullImage" value="rgb_circle_1"/>
+                                                    <userDefinedRuntimeAttribute type="image" keyPath="emptyImage" value="circled_empty"/>
+                                                    <userDefinedRuntimeAttribute type="image" keyPath="fullImage" value="circled_filled"/>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="minRating">
                                                         <integer key="value" value="0"/>
                                                     </userDefinedRuntimeAttribute>
@@ -289,8 +287,8 @@
                                                 <rect key="frame" x="20" y="516" width="560" height="50"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="image" keyPath="emptyImage" value="rgb_circle_3"/>
-                                                    <userDefinedRuntimeAttribute type="image" keyPath="fullImage" value="rgb_circle_1"/>
+                                                    <userDefinedRuntimeAttribute type="image" keyPath="emptyImage" value="circled_empty"/>
+                                                    <userDefinedRuntimeAttribute type="image" keyPath="fullImage" value="circled_filled"/>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="minRating">
                                                         <integer key="value" value="0"/>
                                                     </userDefinedRuntimeAttribute>
@@ -309,8 +307,8 @@
                                                 <rect key="frame" x="20" y="516" width="560" height="50"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="image" keyPath="emptyImage" value="rgb_circle_3"/>
-                                                    <userDefinedRuntimeAttribute type="image" keyPath="fullImage" value="rgb_circle_1"/>
+                                                    <userDefinedRuntimeAttribute type="image" keyPath="emptyImage" value="circled_empty"/>
+                                                    <userDefinedRuntimeAttribute type="image" keyPath="fullImage" value="circled_filled"/>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="minRating">
                                                         <integer key="value" value="0"/>
                                                     </userDefinedRuntimeAttribute>
@@ -329,8 +327,8 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="image" keyPath="emptyImage" value="rgb_circle_3"/>
-                                                    <userDefinedRuntimeAttribute type="image" keyPath="fullImage" value="rgb_circle_1"/>
+                                                    <userDefinedRuntimeAttribute type="image" keyPath="emptyImage" value="circled_empty"/>
+                                                    <userDefinedRuntimeAttribute type="image" keyPath="fullImage" value="circled_filled"/>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="minRating">
                                                         <integer key="value" value="0"/>
                                                     </userDefinedRuntimeAttribute>
@@ -1301,13 +1299,9 @@
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" title="Neu Gericht" id="l68-fg-pFa">
-                        <barButtonItem key="leftBarButtonItem" title="Abbrechen" id="hdz-yt-5ri">
+                        <barButtonItem key="leftBarButtonItem" image="back" id="cJh-Mr-mce">
                             <connections>
-                                <action selector="cancel:" destination="BYZ-38-t0r" id="Y3Z-xi-4N9"/>
-                            </connections>
-                        </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" title="Speichern" id="cJh-Mr-mce">
-                            <connections>
+                                <action selector="cancel:" destination="BYZ-38-t0r" id="cAh-Mo-tbb"/>
                                 <segue destination="34i-M6-9St" kind="unwind" unwindAction="unwindToMealList:" id="p1A-ao-YxJ"/>
                             </connections>
                         </barButtonItem>
@@ -1663,13 +1657,12 @@
         </scene>
     </scenes>
     <resources>
+        <image name="back" width="25" height="25"/>
         <image name="circled_empty" width="32" height="32"/>
         <image name="circled_filled" width="32" height="32"/>
         <image name="defaultPhoto" width="540" height="540"/>
         <image name="emptyStar" width="22" height="22"/>
         <image name="filledStar" width="22" height="22"/>
-        <image name="rgb_circle_1" width="32" height="32"/>
-        <image name="rgb_circle_3" width="32" height="32"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="on1-tD-PDA"/>
