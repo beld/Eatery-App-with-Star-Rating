@@ -1,0 +1,6 @@
+framework module Pods_Eatery_StarTests {
+  umbrella header "Pods-Eatery StarTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

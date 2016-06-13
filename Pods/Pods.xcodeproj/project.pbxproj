@@ -1,0 +1,1724 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00EDE1AEDDEA8E43ADC6D9ECDBFDD24E /* RainbowColorSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7B3DD0C136CEBB79F3129452C9ACC3 /* RainbowColorSource.swift */; };
+		019916680C1A19D9BC92A5411A6A358E /* AMTagListView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 47384F165D92208DA370D85FDA701C13 /* AMTagListView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		036F34CEEB075B4967E66B39F30F0770 /* M13CheckboxGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3292FB88619A591199E4420724D5DF5 /* M13CheckboxGestureRecognizer.swift */; };
+		04376C5E8073DED8DAC7DB54D56FE10F /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 8A9522044D0181EF35F9B4700B0687A7 /* Info.plist */; };
+		096EFF0F52924F21FDCB53AB634268BB /* M13CheckboxFillManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1349010AD186F6306124FF684447C2 /* M13CheckboxFillManager.swift */; };
+		0EFCDB20121FD4408DAD3AAC3858BDF0 /* Pods-Eatery Star-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5846AB1FEF589FFB9E04E2BC96C15773 /* Pods-Eatery Star-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F39B48C869ADDD91E06D9BD54C82FE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9854452B704969D40D932335DEE0FF /* Foundation.framework */; };
+		11B1DBAE4E7686A4BF9443B5EB6E7C58 /* TTGEmojiRate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D26BBF31002BF87A229F97542F3525 /* TTGEmojiRate-dummy.m */; };
+		11B4A0A92C257B7BE3D021E114166ED7 /* RainbowDragPop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AB6523AA8E21AB0BAC050D5C5D3258 /* RainbowDragPop.swift */; };
+		1614233200F77EEC7A5AEEB73F97FD04 /* M13Checkbox+IB.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC8E9196FB1F3206D2FA50BA7EFE69C /* M13Checkbox+IB.swift */; };
+		17978EDBED95F907EE4FCB70AC5EE7FB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F2331BAF78D4EDDCD400CF6388C7978 /* UIKit.framework */; };
+		1D9578E518EA96ECDBC116657F79F009 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 90AC44D4F473B80978289C9E4AA9C076 /* Info.plist */; };
+		1EE4DDFDC320EAC277D047183CBB195F /* SCLAlertView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EE513301CAE2E8A037AD9A933B7D1E2 /* SCLAlertView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EF0ADF5CD209C22A51B74ECE5264B63 /* RainbowNavigation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B2CC2B257646843A4BCEFDD736E3A0B0 /* RainbowNavigation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F2D720D036E518E3E6E2B183F8689C9 /* RainbowNavigation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE8B2814E355403161A5C166C4CEFB8 /* RainbowNavigation-dummy.m */; };
+		2161CB44569782E42E45439692FBE3ED /* M13Checkbox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCB86FE2ABD4F7A4BB7D76BABB2BC6C /* M13Checkbox-dummy.m */; };
+		2D39AFF4DCB31D402488B07909551F55 /* M13CheckboxSpiralManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC0F3B707765FFD8EBCD8BB3B72B193 /* M13CheckboxSpiralManager.swift */; };
+		305133BCAA8380E5E6E9AF4FE3AEB087 /* M13CheckboxDotPathPresets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847E092ED90BBB8A96603FBBD4AA7D45 /* M13CheckboxDotPathPresets.swift */; };
+		3179F4D2534E848707DE54637070A919 /* TTGEmojiRate.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9D237446CE20D8DBC4E70C7175B270F0 /* TTGEmojiRate.bundle */; };
+		3391A826E404FE0E7CE9C7691AD35D85 /* M13CheckboxManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC896A0DF5FAE8E96F1A2A931CA1781 /* M13CheckboxManager.swift */; };
+		40649F6DB4AA1E6E2F3DA55EFEED608C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9854452B704969D40D932335DEE0FF /* Foundation.framework */; };
+		425E6D3816E71420E9BFC1AC3B561656 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4CCDF0ACEE37ED4308724E62FCDE939 /* CoreGraphics.framework */; };
+		44C7A6EE07D9C4687D1262C6CBD9526C /* SCLExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E567E5259FBBBFA730E5C625C29C1AB /* SCLExtensions.swift */; };
+		4A87AE7D2A13E02ED41F5A4D3033594C /* Pods-Eatery StarTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DAC74CE50C4CC9D8DFFD92AAC8757529 /* Pods-Eatery StarTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B2C38EAAAA4275EB0245A710F95AB2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9854452B704969D40D932335DEE0FF /* Foundation.framework */; };
+		4E2AA4011512D735CA48481884383365 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9854452B704969D40D932335DEE0FF /* Foundation.framework */; };
+		4E99830DDC4A9A73AFEFBAC6A631CFF9 /* M13CheckboxPathPresets.swift in Sources */ = {isa = PBXBuildFile; fileRef = D123743C90F0C7BB0562DBE7C8907DC5 /* M13CheckboxPathPresets.swift */; };
+		54A0AF219664038F723F3406B4997145 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9854452B704969D40D932335DEE0FF /* Foundation.framework */; };
+		61D57076AF4FD3AAC8FD0E3760B38613 /* AMTagListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAB82E8D1566B126D76B89E2055B501 /* AMTagListView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		696D23440B7D8922DA794B5D60E257C1 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55113383FA4F27E246BB7BACA8C0E465 /* Configuration.swift */; };
+		731E2438102F2621D989A834A9ACC323 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9854452B704969D40D932335DEE0FF /* Foundation.framework */; };
+		739371F1B1FACD587F4CA49446FDFDC9 /* RainbowPushAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF34457247948557C4640B3B77AC396 /* RainbowPushAnimator.swift */; };
+		777AB6C92CB6DFFEDD8E5CEEDCBA81EF /* TTGEmojiRate.h in Headers */ = {isa = PBXBuildFile; fileRef = 3445788487E5A2FDBD10E1BDA906607A /* TTGEmojiRate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77BEF1CFB06B83C1BF25D1A0C5822D12 /* AMTagView.h in Headers */ = {isa = PBXBuildFile; fileRef = B43B60CD4D14B2D3DE8B6F42ACCFDF18 /* AMTagView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		790550E8C86322C84E63DBC81FAE8AD6 /* RainbowNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77E443A232D3D499DFE93B49F6A483F /* RainbowNavigation.swift */; };
+		796127E442AF6CB5E2D3DD1A8EE7778A /* SCLAlertView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 099A2B7DA4E8017A25E69EFB5A12311F /* SCLAlertView-dummy.m */; };
+		7A6D04E6391AB243F35BAE217FF6F81D /* M13CheckboxAnimationPresets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AD3D4852D7F7617069AAF79A2BFE63 /* M13CheckboxAnimationPresets.swift */; };
+		7DE07C03EB07FE5FA9C388B05915F40C /* TouchVisualizer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B71C6069C0DD4488D225718025B8F3 /* TouchVisualizer-dummy.m */; };
+		8002901EEAC6026FB9EA6777BC8B1C0D /* M13Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF96D543242B4E1069E6155CD8FDCA49 /* M13Checkbox.swift */; };
+		84E341BC8535DD01582617F2C0DA35BD /* M13CheckboxExpandManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83FEABAA7098629D519F703C98476F7 /* M13CheckboxExpandManager.swift */; };
+		888AD659FB3EE27273489249519FF4E1 /* AMTagView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A2F2656A5EFDB5C7A0BFAC5186E0493 /* AMTagView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8892506A8066516FCC225A186EAAEB80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9854452B704969D40D932335DEE0FF /* Foundation.framework */; };
+		89746AFED1601736D8E1F149AABD1A40 /* M13CheckboxBounceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B079DA3ADE2FF00D4D6376643247FF /* M13CheckboxBounceManager.swift */; };
+		8DA8D3EFF95C9DC581278E98F5EF3492 /* Visualizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8D97EF4EA916AF1F6ECD16C5977911 /* Visualizer.swift */; };
+		928EBAF19E6D4739410ACCC4DE0249F5 /* M13CheckboxSpiralPathPresets.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56A38E012521B44C7B0CF6A8315A80C /* M13CheckboxSpiralPathPresets.swift */; };
+		A06AACC5E6E1DCF8139BD8C8139E5774 /* TTGEmojiRate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3732E79D7EB60FFA6F1F63C64C267961 /* TTGEmojiRate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1DF794D8F22D22B6954FA2D6369EB91 /* UINavigationBar+Rainbow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57AD09DC42BBB6DB4695F1E5CDF08A1 /* UINavigationBar+Rainbow.swift */; };
+		A3B6A8A51DE1AD2CB29A97CD36305900 /* UIWindow+Swizzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17C8F5B0166A98CA95CDACD77F2EDAE /* UIWindow+Swizzle.swift */; };
+		A8BA01DF5817C77025379C44896FCE85 /* AMTagListView.h in Headers */ = {isa = PBXBuildFile; fileRef = FDE357677475A03AD33A5FF7CF6713E9 /* AMTagListView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB83B753F91649BFBAAFAF8FE7BBA526 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9854452B704969D40D932335DEE0FF /* Foundation.framework */; };
+		B94A10D56FC424B25056D629AEBE7E00 /* AMTagListView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A4B32A282737D8CFA125E9D66D4B7FC /* AMTagListView-dummy.m */; };
+		BC3B9E7AFBEDC160E284B9DE85BBC0FF /* M13CheckboxFadeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1B580BA840F12F0B16DAE23FB5D457 /* M13CheckboxFadeManager.swift */; };
+		BCAB95C02A0BC12BA81BAAA0DD3F9441 /* RainbowPopAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30AF97094E10909ED811910E3019829 /* RainbowPopAnimator.swift */; };
+		BD9965172DBDD04B4EECB8AE3A0A73CD /* TouchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158168FF46EA0383C81899C69794EC63 /* TouchView.swift */; };
+		BF6288CCDB2CC442332096969FB1A1C6 /* RainbowNavigation.h in Headers */ = {isa = PBXBuildFile; fileRef = 810E4FCD594F436AED83D63164DDBF50 /* RainbowNavigation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF82975857F88C2BCC8C5CABDADD06A2 /* M13Checkbox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 985292D96F4224192040A73C182CD907 /* M13Checkbox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD7C552ACD6156D56AE4BE1F228CD688 /* M13CheckboxStrokeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2ABC84C3D7728BE77CED3BDACD111FE /* M13CheckboxStrokeManager.swift */; };
+		D85AE9CB837A689D75BF4890540F0990 /* SCLAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44F069C2EA786E765D4984318066875 /* SCLAlertView.swift */; };
+		DC45D27AD6E664220BAA9C2697303455 /* EmojiRateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C987ADEF318A9E88DD05C369C30E42 /* EmojiRateView.swift */; };
+		DCF649FF4863A252ECA812F92F5F4E94 /* Pods-Eatery StarTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 37383932177B487CB3B1F6D5BD9F382D /* Pods-Eatery StarTests-dummy.m */; };
+		E51AFB835A686CD7A857580CBBC22905 /* TouchVisualizer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BBEE8610A703EF7A2C0DB2C4F47C50A4 /* TouchVisualizer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F31B4CB5FED9CA97A27BD9EA00E2AFB7 /* M13CheckboxFlatManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6544DA4A03F7576B800D7F877903E4CC /* M13CheckboxFlatManager.swift */; };
+		F350FBC892615E6C4BB8D4E4C79EF163 /* Pods-Eatery Star-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 943BB91CA71BA78E261926ACC2CB9B24 /* Pods-Eatery Star-dummy.m */; };
+		F44047DF453E3DCEE6C2D09BC695AB39 /* M13CheckboxDotManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57959ED456BB8001B385573EB8566BDE /* M13CheckboxDotManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31323D6F09BD79FC62C68E8B642FBB75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62EDEA5CCC900B46027AB2B69A5A1F93;
+			remoteInfo = RainbowNavigation;
+		};
+		32A1A4DF4558D0801E1FEA97CEEC11E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D425490E2F8C3101CC0B7B6C1C5BD56B;
+			remoteInfo = SCLAlertView;
+		};
+		4A33FC26B291BD88B8773BB93B8C3A78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 857B0FE7EA232B173EA01135C4B3EC9A;
+			remoteInfo = "TTGEmojiRate-TTGEmojiRate";
+		};
+		BE694C225A94D8ABAF1D31A393C98B55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D13DAF74474AB8BF36CDECE29F1288C6;
+			remoteInfo = TTGEmojiRate;
+		};
+		D8C6C17D10387ED31F2C8444BEBA323C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35F5A4A6B702FC5C62E0A76D67F3B6B3;
+			remoteInfo = AMTagListView;
+		};
+		EA5F613DC3CC919A9B83B83B85BEE78F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1645BEB4C9526D282AB0AE9C7A3E9F38;
+			remoteInfo = TouchVisualizer;
+		};
+		FBD52FC99A19347A6F87D172A4334F95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED3AFC0E9905CA362D94DA496A23E2DD;
+			remoteInfo = M13Checkbox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		021A014264160A36A2D14CFFDB3F1E11 /* Pods-Eatery Star-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Eatery Star-acknowledgements.markdown"; sourceTree = "<group>"; };
+		022C1CD802D8BEAA73A2DCBE1F4016B6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		044CA2703A0EC19504C7311FBE79AF8A /* RainbowNavigation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RainbowNavigation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		063C83D71981BA51BD169C3EFE442640 /* Pods-Eatery Star-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Eatery Star-frameworks.sh"; sourceTree = "<group>"; };
+		099A2B7DA4E8017A25E69EFB5A12311F /* SCLAlertView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SCLAlertView-dummy.m"; sourceTree = "<group>"; };
+		0F2331BAF78D4EDDCD400CF6388C7978 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		12317087ACE1E462DA03728CEE78EC3E /* RainbowNavigation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RainbowNavigation.xcconfig; sourceTree = "<group>"; };
+		14A3BCB8FA025DA6D1ECA04301EAC530 /* Pods-Eatery StarTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Eatery StarTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		158168FF46EA0383C81899C69794EC63 /* TouchView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TouchView.swift; path = Pod/Classes/TouchView.swift; sourceTree = "<group>"; };
+		1F1B580BA840F12F0B16DAE23FB5D457 /* M13CheckboxFadeManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxFadeManager.swift; path = Sources/Managers/M13CheckboxFadeManager.swift; sourceTree = "<group>"; };
+		202AE3D9730FE759A279C62AFCF83F9B /* Pods-Eatery StarTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Eatery StarTests.modulemap"; sourceTree = "<group>"; };
+		21A2D775574AC67833A3ACD10658F978 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22AD3D4852D7F7617069AAF79A2BFE63 /* M13CheckboxAnimationPresets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxAnimationPresets.swift; path = Sources/M13CheckboxAnimationPresets.swift; sourceTree = "<group>"; };
+		23B079DA3ADE2FF00D4D6376643247FF /* M13CheckboxBounceManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxBounceManager.swift; path = Sources/Managers/M13CheckboxBounceManager.swift; sourceTree = "<group>"; };
+		2A4B32A282737D8CFA125E9D66D4B7FC /* AMTagListView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMTagListView-dummy.m"; sourceTree = "<group>"; };
+		2AE118DEE80E0FB1868AA4E6BE375B0F /* Pods-Eatery Star.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Eatery Star.modulemap"; sourceTree = "<group>"; };
+		2F8D97EF4EA916AF1F6ECD16C5977911 /* Visualizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Visualizer.swift; path = Pod/Classes/Visualizer.swift; sourceTree = "<group>"; };
+		30252C5E587C950B5D35848E83971713 /* TTGEmojiRate.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TTGEmojiRate.xcconfig; sourceTree = "<group>"; };
+		32C366B470F3035C9F982185130F5E4A /* AMTagListView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AMTagListView.modulemap; sourceTree = "<group>"; };
+		3445788487E5A2FDBD10E1BDA906607A /* TTGEmojiRate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTGEmojiRate.h; path = Pod/Classes/TTGEmojiRate.h; sourceTree = "<group>"; };
+		3732E79D7EB60FFA6F1F63C64C267961 /* TTGEmojiRate-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTGEmojiRate-umbrella.h"; sourceTree = "<group>"; };
+		37383932177B487CB3B1F6D5BD9F382D /* Pods-Eatery StarTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Eatery StarTests-dummy.m"; sourceTree = "<group>"; };
+		37AB6523AA8E21AB0BAC050D5C5D3258 /* RainbowDragPop.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RainbowDragPop.swift; path = RainbowNavigation/RainbowDragPop.swift; sourceTree = "<group>"; };
+		3AE8B2814E355403161A5C166C4CEFB8 /* RainbowNavigation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RainbowNavigation-dummy.m"; sourceTree = "<group>"; };
+		3C9854452B704969D40D932335DEE0FF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3CED9E0BA15F2E0A02472F6D5777708F /* TouchVisualizer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TouchVisualizer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42C7AB6D828B2AF048C6AE5630962311 /* TouchVisualizer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TouchVisualizer.modulemap; sourceTree = "<group>"; };
+		43EBE671B08D3E7B0B3769F45B86012A /* Pods-Eatery StarTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Eatery StarTests-resources.sh"; sourceTree = "<group>"; };
+		47384F165D92208DA370D85FDA701C13 /* AMTagListView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMTagListView-umbrella.h"; sourceTree = "<group>"; };
+		4CAB82E8D1566B126D76B89E2055B501 /* AMTagListView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AMTagListView.m; path = Source/AMTagListView.m; sourceTree = "<group>"; };
+		4CCB86FE2ABD4F7A4BB7D76BABB2BC6C /* M13Checkbox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "M13Checkbox-dummy.m"; sourceTree = "<group>"; };
+		4DF2D4FAFE686E7D1E277B0C2C8198F2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FC0F3B707765FFD8EBCD8BB3B72B193 /* M13CheckboxSpiralManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxSpiralManager.swift; path = Sources/Managers/M13CheckboxSpiralManager.swift; sourceTree = "<group>"; };
+		5190E79047B5B394BE10CC127A5A75DD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55113383FA4F27E246BB7BACA8C0E465 /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = Pod/Classes/Configuration.swift; sourceTree = "<group>"; };
+		55672136507D0B2BABFEFE9AF1F92D4D /* ResourceBundle-TTGEmojiRate-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TTGEmojiRate-Info.plist"; sourceTree = "<group>"; };
+		562CFB4B69AB65FF993C1B4A9C837085 /* TTGEmojiRate-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTGEmojiRate-prefix.pch"; sourceTree = "<group>"; };
+		57959ED456BB8001B385573EB8566BDE /* M13CheckboxDotManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxDotManager.swift; path = Sources/Managers/M13CheckboxDotManager.swift; sourceTree = "<group>"; };
+		5846AB1FEF589FFB9E04E2BC96C15773 /* Pods-Eatery Star-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Eatery Star-umbrella.h"; sourceTree = "<group>"; };
+		584E432B8E8EABCC998B88CF0DEBE479 /* Pods_Eatery_Star.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eatery_Star.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AF34457247948557C4640B3B77AC396 /* RainbowPushAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RainbowPushAnimator.swift; path = RainbowNavigation/RainbowPushAnimator.swift; sourceTree = "<group>"; };
+		6544DA4A03F7576B800D7F877903E4CC /* M13CheckboxFlatManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxFlatManager.swift; path = Sources/Managers/M13CheckboxFlatManager.swift; sourceTree = "<group>"; };
+		6E567E5259FBBBFA730E5C625C29C1AB /* SCLExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SCLExtensions.swift; path = SCLAlertView/SCLExtensions.swift; sourceTree = "<group>"; };
+		6EE513301CAE2E8A037AD9A933B7D1E2 /* SCLAlertView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCLAlertView-umbrella.h"; sourceTree = "<group>"; };
+		70C987ADEF318A9E88DD05C369C30E42 /* EmojiRateView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmojiRateView.swift; path = Pod/Classes/EmojiRateView.swift; sourceTree = "<group>"; };
+		755490053C752B2982E659B498BCC1DA /* TouchVisualizer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TouchVisualizer.xcconfig; sourceTree = "<group>"; };
+		771038A8C7537EE7A17D18F0B3377C8C /* TouchVisualizer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TouchVisualizer-prefix.pch"; sourceTree = "<group>"; };
+		7BC896A0DF5FAE8E96F1A2A931CA1781 /* M13CheckboxManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxManager.swift; path = Sources/M13CheckboxManager.swift; sourceTree = "<group>"; };
+		810E4FCD594F436AED83D63164DDBF50 /* RainbowNavigation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RainbowNavigation.h; path = RainbowNavigation/RainbowNavigation.h; sourceTree = "<group>"; };
+		82FDD957D567D5A44C5DEB542A130494 /* SCLAlertView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SCLAlertView.modulemap; sourceTree = "<group>"; };
+		847E092ED90BBB8A96603FBBD4AA7D45 /* M13CheckboxDotPathPresets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxDotPathPresets.swift; path = Sources/Presets/M13CheckboxDotPathPresets.swift; sourceTree = "<group>"; };
+		84BC9DE5F6BEB136DC8E7F41A0BDAA9E /* SCLAlertView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCLAlertView-prefix.pch"; sourceTree = "<group>"; };
+		8A2F2656A5EFDB5C7A0BFAC5186E0493 /* AMTagView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AMTagView.m; path = Source/AMTagView.m; sourceTree = "<group>"; };
+		8A9522044D0181EF35F9B4700B0687A7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = RainbowNavigation/Info.plist; sourceTree = "<group>"; };
+		8AAD4FC7CCE9CB3A7C3E2845C6DED313 /* AMTagListView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMTagListView-prefix.pch"; sourceTree = "<group>"; };
+		8D38BF545E144FD85BDD470983C87BE2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E4E34732FEC4A71DA9A66D13299C93D /* RainbowNavigation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = RainbowNavigation.modulemap; sourceTree = "<group>"; };
+		8FD0DD977F31E90513ACC4D806343D17 /* TTGEmojiRate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TTGEmojiRate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90AC44D4F473B80978289C9E4AA9C076 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = SCLAlertView/Info.plist; sourceTree = "<group>"; };
+		92D4A1B3CED2939D830A2DB9A78E9F8F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		943BB91CA71BA78E261926ACC2CB9B24 /* Pods-Eatery Star-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Eatery Star-dummy.m"; sourceTree = "<group>"; };
+		955D40D238A14AB59AF4BC5C8927F3E5 /* SCLAlertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SCLAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		985292D96F4224192040A73C182CD907 /* M13Checkbox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "M13Checkbox-umbrella.h"; sourceTree = "<group>"; };
+		9B5B10BE2694ABBE6C2ED52318F4F59F /* SCLAlertView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SCLAlertView.xcconfig; sourceTree = "<group>"; };
+		9D237446CE20D8DBC4E70C7175B270F0 /* TTGEmojiRate.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTGEmojiRate.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6FF0AE3BA518D0AAD76D94B53B9234A /* AMTagListView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMTagListView.xcconfig; sourceTree = "<group>"; };
+		A77E443A232D3D499DFE93B49F6A483F /* RainbowNavigation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RainbowNavigation.swift; path = RainbowNavigation/RainbowNavigation.swift; sourceTree = "<group>"; };
+		AA285099314FC089F33B06574C937441 /* Pods_Eatery_StarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eatery_StarTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B17C8F5B0166A98CA95CDACD77F2EDAE /* UIWindow+Swizzle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIWindow+Swizzle.swift"; path = "Pod/Classes/UIWindow+Swizzle.swift"; sourceTree = "<group>"; };
+		B2CC2B257646843A4BCEFDD736E3A0B0 /* RainbowNavigation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RainbowNavigation-umbrella.h"; sourceTree = "<group>"; };
+		B43B60CD4D14B2D3DE8B6F42ACCFDF18 /* AMTagView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMTagView.h; path = Source/AMTagView.h; sourceTree = "<group>"; };
+		B4CCDF0ACEE37ED4308724E62FCDE939 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		B57AD09DC42BBB6DB4695F1E5CDF08A1 /* UINavigationBar+Rainbow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UINavigationBar+Rainbow.swift"; path = "RainbowNavigation/UINavigationBar+Rainbow.swift"; sourceTree = "<group>"; };
+		B8AF4FFAF3A8C5AE5AEBCB24C77C404D /* RainbowNavigation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RainbowNavigation-prefix.pch"; sourceTree = "<group>"; };
+		B8D26BBF31002BF87A229F97542F3525 /* TTGEmojiRate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TTGEmojiRate-dummy.m"; sourceTree = "<group>"; };
+		B9B71C6069C0DD4488D225718025B8F3 /* TouchVisualizer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TouchVisualizer-dummy.m"; sourceTree = "<group>"; };
+		BA2A5C668C4A04A88316ECC8EBB6D8EF /* M13Checkbox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = M13Checkbox.modulemap; sourceTree = "<group>"; };
+		BB7B3DD0C136CEBB79F3129452C9ACC3 /* RainbowColorSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RainbowColorSource.swift; path = RainbowNavigation/RainbowColorSource.swift; sourceTree = "<group>"; };
+		BBEE8610A703EF7A2C0DB2C4F47C50A4 /* TouchVisualizer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TouchVisualizer-umbrella.h"; sourceTree = "<group>"; };
+		BF8CAC68E69766F1D9705887270DB7E1 /* Pods-Eatery Star.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Eatery Star.debug.xcconfig"; sourceTree = "<group>"; };
+		BF96D543242B4E1069E6155CD8FDCA49 /* M13Checkbox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13Checkbox.swift; path = Sources/M13Checkbox.swift; sourceTree = "<group>"; };
+		C05B08D22FBA0D8AFBEB6B6A9196DDC8 /* Pods-Eatery StarTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Eatery StarTests-frameworks.sh"; sourceTree = "<group>"; };
+		C096558F34EBC7BE5E990F158546642C /* AMTagListView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AMTagListView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C116D83E96433D3E581FE3F582F79A96 /* M13Checkbox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "M13Checkbox-prefix.pch"; sourceTree = "<group>"; };
+		C12AE9A84137D445A05D6CDFEDE03AEB /* Pods-Eatery Star.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Eatery Star.release.xcconfig"; sourceTree = "<group>"; };
+		C3292FB88619A591199E4420724D5DF5 /* M13CheckboxGestureRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxGestureRecognizer.swift; path = Sources/M13CheckboxGestureRecognizer.swift; sourceTree = "<group>"; };
+		C5D057783EBFBB232B96D4E88B56CA35 /* Pods-Eatery Star-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Eatery Star-resources.sh"; sourceTree = "<group>"; };
+		C7B39781067C269B5CC4D703FF050F75 /* M13Checkbox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = M13Checkbox.xcconfig; sourceTree = "<group>"; };
+		CAC8E9196FB1F3206D2FA50BA7EFE69C /* M13Checkbox+IB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "M13Checkbox+IB.swift"; path = "Sources/M13Checkbox+IB.swift"; sourceTree = "<group>"; };
+		CD3DE13393D97284D0226B7304076999 /* TTGEmojiRate.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TTGEmojiRate.modulemap; sourceTree = "<group>"; };
+		D123743C90F0C7BB0562DBE7C8907DC5 /* M13CheckboxPathPresets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxPathPresets.swift; path = Sources/M13CheckboxPathPresets.swift; sourceTree = "<group>"; };
+		D9204DA774B536FD1FB93555C2BC4729 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAC74CE50C4CC9D8DFFD92AAC8757529 /* Pods-Eatery StarTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Eatery StarTests-umbrella.h"; sourceTree = "<group>"; };
+		E30AF97094E10909ED811910E3019829 /* RainbowPopAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RainbowPopAnimator.swift; path = RainbowNavigation/RainbowPopAnimator.swift; sourceTree = "<group>"; };
+		E44F069C2EA786E765D4984318066875 /* SCLAlertView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SCLAlertView.swift; path = SCLAlertView/SCLAlertView.swift; sourceTree = "<group>"; };
+		E56A38E012521B44C7B0CF6A8315A80C /* M13CheckboxSpiralPathPresets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxSpiralPathPresets.swift; path = Sources/Presets/M13CheckboxSpiralPathPresets.swift; sourceTree = "<group>"; };
+		E78D1FFBF607B57E56B0A0E11B33C202 /* Pods-Eatery StarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Eatery StarTests.release.xcconfig"; sourceTree = "<group>"; };
+		E7F18BC6AB2D60B18BB9DCACD63499D3 /* M13Checkbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = M13Checkbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8515FDFEA9490BD0336FF4A6588C9E9 /* Pods-Eatery StarTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Eatery StarTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EC72B1A93837F03BAC593E953010E25A /* Pods-Eatery Star-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Eatery Star-acknowledgements.plist"; sourceTree = "<group>"; };
+		EE1349010AD186F6306124FF684447C2 /* M13CheckboxFillManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxFillManager.swift; path = Sources/Managers/M13CheckboxFillManager.swift; sourceTree = "<group>"; };
+		F06FFD51286AD9891A2EF93E04B82A38 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F07D2796B33BE1D255A0E43D6D1A6B02 /* Pods-Eatery StarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Eatery StarTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F2ABC84C3D7728BE77CED3BDACD111FE /* M13CheckboxStrokeManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxStrokeManager.swift; path = Sources/Managers/M13CheckboxStrokeManager.swift; sourceTree = "<group>"; };
+		F83FEABAA7098629D519F703C98476F7 /* M13CheckboxExpandManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxExpandManager.swift; path = Sources/Managers/M13CheckboxExpandManager.swift; sourceTree = "<group>"; };
+		FDE357677475A03AD33A5FF7CF6713E9 /* AMTagListView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMTagListView.h; path = Source/AMTagListView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		198539A31C9CB139F1661F481E7DBB17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B2C38EAAAA4275EB0245A710F95AB2B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B2EC289872EBD18454A99A9CA3864CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				731E2438102F2621D989A834A9ACC323 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58399B1798FDC7D17507985A02D94969 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				425E6D3816E71420E9BFC1AC3B561656 /* CoreGraphics.framework in Frameworks */,
+				AB83B753F91649BFBAAFAF8FE7BBA526 /* Foundation.framework in Frameworks */,
+				17978EDBED95F907EE4FCB70AC5EE7FB /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D6394589CE17069F2703FFE5581C293 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		639B8DE1E585020F93F4DD5EF3EEFC6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40649F6DB4AA1E6E2F3DA55EFEED608C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68ADCA6A806E965723BFD4A49E3F30BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54A0AF219664038F723F3406B4997145 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F84E85A8E4808B3CEAC2597D6EA0CC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F39B48C869ADDD91E06D9BD54C82FE4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		878567BB27CD681B34A075731C323047 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8892506A8066516FCC225A186EAAEB80 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBBEEFFA1ECF21FA278CDBE7023AB52B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E2AA4011512D735CA48481884383365 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A68FE8A6158D395EC4CB10F8472F165 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B4CCDF0ACEE37ED4308724E62FCDE939 /* CoreGraphics.framework */,
+				3C9854452B704969D40D932335DEE0FF /* Foundation.framework */,
+				0F2331BAF78D4EDDCD400CF6388C7978 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A68FE8A6158D395EC4CB10F8472F165 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1FBC3863B62DBDCC10434A3C57863A0D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9204DA774B536FD1FB93555C2BC4729 /* Info.plist */,
+				82FDD957D567D5A44C5DEB542A130494 /* SCLAlertView.modulemap */,
+				9B5B10BE2694ABBE6C2ED52318F4F59F /* SCLAlertView.xcconfig */,
+				099A2B7DA4E8017A25E69EFB5A12311F /* SCLAlertView-dummy.m */,
+				84BC9DE5F6BEB136DC8E7F41A0BDAA9E /* SCLAlertView-prefix.pch */,
+				6EE513301CAE2E8A037AD9A933B7D1E2 /* SCLAlertView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SCLAlertView";
+			sourceTree = "<group>";
+		};
+		2911C9C9A013F7A11687C5F878592999 /* Pods-Eatery StarTests */ = {
+			isa = PBXGroup;
+			children = (
+				4DF2D4FAFE686E7D1E277B0C2C8198F2 /* Info.plist */,
+				202AE3D9730FE759A279C62AFCF83F9B /* Pods-Eatery StarTests.modulemap */,
+				14A3BCB8FA025DA6D1ECA04301EAC530 /* Pods-Eatery StarTests-acknowledgements.markdown */,
+				E8515FDFEA9490BD0336FF4A6588C9E9 /* Pods-Eatery StarTests-acknowledgements.plist */,
+				37383932177B487CB3B1F6D5BD9F382D /* Pods-Eatery StarTests-dummy.m */,
+				C05B08D22FBA0D8AFBEB6B6A9196DDC8 /* Pods-Eatery StarTests-frameworks.sh */,
+				43EBE671B08D3E7B0B3769F45B86012A /* Pods-Eatery StarTests-resources.sh */,
+				DAC74CE50C4CC9D8DFFD92AAC8757529 /* Pods-Eatery StarTests-umbrella.h */,
+				F07D2796B33BE1D255A0E43D6D1A6B02 /* Pods-Eatery StarTests.debug.xcconfig */,
+				E78D1FFBF607B57E56B0A0E11B33C202 /* Pods-Eatery StarTests.release.xcconfig */,
+			);
+			name = "Pods-Eatery StarTests";
+			path = "Target Support Files/Pods-Eatery StarTests";
+			sourceTree = "<group>";
+		};
+		39F946AA0AF61F8EFA5F2108093F8E82 /* AMTagListView */ = {
+			isa = PBXGroup;
+			children = (
+				FDE357677475A03AD33A5FF7CF6713E9 /* AMTagListView.h */,
+				4CAB82E8D1566B126D76B89E2055B501 /* AMTagListView.m */,
+				B43B60CD4D14B2D3DE8B6F42ACCFDF18 /* AMTagView.h */,
+				8A2F2656A5EFDB5C7A0BFAC5186E0493 /* AMTagView.m */,
+				C9D40FD09E3F18C2760DBD23CCD00613 /* Support Files */,
+			);
+			path = AMTagListView;
+			sourceTree = "<group>";
+		};
+		46451A1DF041EC35233606F89516F95F /* M13Checkbox */ = {
+			isa = PBXGroup;
+			children = (
+				BF96D543242B4E1069E6155CD8FDCA49 /* M13Checkbox.swift */,
+				CAC8E9196FB1F3206D2FA50BA7EFE69C /* M13Checkbox+IB.swift */,
+				22AD3D4852D7F7617069AAF79A2BFE63 /* M13CheckboxAnimationPresets.swift */,
+				23B079DA3ADE2FF00D4D6376643247FF /* M13CheckboxBounceManager.swift */,
+				57959ED456BB8001B385573EB8566BDE /* M13CheckboxDotManager.swift */,
+				847E092ED90BBB8A96603FBBD4AA7D45 /* M13CheckboxDotPathPresets.swift */,
+				F83FEABAA7098629D519F703C98476F7 /* M13CheckboxExpandManager.swift */,
+				1F1B580BA840F12F0B16DAE23FB5D457 /* M13CheckboxFadeManager.swift */,
+				EE1349010AD186F6306124FF684447C2 /* M13CheckboxFillManager.swift */,
+				6544DA4A03F7576B800D7F877903E4CC /* M13CheckboxFlatManager.swift */,
+				C3292FB88619A591199E4420724D5DF5 /* M13CheckboxGestureRecognizer.swift */,
+				7BC896A0DF5FAE8E96F1A2A931CA1781 /* M13CheckboxManager.swift */,
+				D123743C90F0C7BB0562DBE7C8907DC5 /* M13CheckboxPathPresets.swift */,
+				4FC0F3B707765FFD8EBCD8BB3B72B193 /* M13CheckboxSpiralManager.swift */,
+				E56A38E012521B44C7B0CF6A8315A80C /* M13CheckboxSpiralPathPresets.swift */,
+				F2ABC84C3D7728BE77CED3BDACD111FE /* M13CheckboxStrokeManager.swift */,
+				F0CE6893999C3B9B3FB8D5E224AE16EE /* Support Files */,
+			);
+			path = M13Checkbox;
+			sourceTree = "<group>";
+		};
+		69ED479BC1F693AFE57477306F89F5A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C096558F34EBC7BE5E990F158546642C /* AMTagListView.framework */,
+				E7F18BC6AB2D60B18BB9DCACD63499D3 /* M13Checkbox.framework */,
+				584E432B8E8EABCC998B88CF0DEBE479 /* Pods_Eatery_Star.framework */,
+				AA285099314FC089F33B06574C937441 /* Pods_Eatery_StarTests.framework */,
+				044CA2703A0EC19504C7311FBE79AF8A /* RainbowNavigation.framework */,
+				955D40D238A14AB59AF4BC5C8927F3E5 /* SCLAlertView.framework */,
+				3CED9E0BA15F2E0A02472F6D5777708F /* TouchVisualizer.framework */,
+				9D237446CE20D8DBC4E70C7175B270F0 /* TTGEmojiRate.bundle */,
+				8FD0DD977F31E90513ACC4D806343D17 /* TTGEmojiRate.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78E46AC9B837F630327DAFB28BC327A4 /* SCLAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				90AC44D4F473B80978289C9E4AA9C076 /* Info.plist */,
+				E44F069C2EA786E765D4984318066875 /* SCLAlertView.swift */,
+				6E567E5259FBBBFA730E5C625C29C1AB /* SCLExtensions.swift */,
+				1FBC3863B62DBDCC10434A3C57863A0D /* Support Files */,
+			);
+			path = SCLAlertView;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				E53E27B6C609C319DB7C6C724DA5B053 /* Pods */,
+				69ED479BC1F693AFE57477306F89F5A4 /* Products */,
+				C252357CCF497D0FA4300EA6B1192749 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		809116368070378AA5708CF09B3B1755 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				92D4A1B3CED2939D830A2DB9A78E9F8F /* Info.plist */,
+				8E4E34732FEC4A71DA9A66D13299C93D /* RainbowNavigation.modulemap */,
+				12317087ACE1E462DA03728CEE78EC3E /* RainbowNavigation.xcconfig */,
+				3AE8B2814E355403161A5C166C4CEFB8 /* RainbowNavigation-dummy.m */,
+				B8AF4FFAF3A8C5AE5AEBCB24C77C404D /* RainbowNavigation-prefix.pch */,
+				B2CC2B257646843A4BCEFDD736E3A0B0 /* RainbowNavigation-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RainbowNavigation";
+			sourceTree = "<group>";
+		};
+		870C75BF6920424CB9C48417D0E226A7 /* RainbowNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				8A9522044D0181EF35F9B4700B0687A7 /* Info.plist */,
+				BB7B3DD0C136CEBB79F3129452C9ACC3 /* RainbowColorSource.swift */,
+				37AB6523AA8E21AB0BAC050D5C5D3258 /* RainbowDragPop.swift */,
+				810E4FCD594F436AED83D63164DDBF50 /* RainbowNavigation.h */,
+				A77E443A232D3D499DFE93B49F6A483F /* RainbowNavigation.swift */,
+				E30AF97094E10909ED811910E3019829 /* RainbowPopAnimator.swift */,
+				5AF34457247948557C4640B3B77AC396 /* RainbowPushAnimator.swift */,
+				B57AD09DC42BBB6DB4695F1E5CDF08A1 /* UINavigationBar+Rainbow.swift */,
+				809116368070378AA5708CF09B3B1755 /* Support Files */,
+			);
+			path = RainbowNavigation;
+			sourceTree = "<group>";
+		};
+		87983EBFAED956E6B9B9C77340D25714 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5190E79047B5B394BE10CC127A5A75DD /* Info.plist */,
+				42C7AB6D828B2AF048C6AE5630962311 /* TouchVisualizer.modulemap */,
+				755490053C752B2982E659B498BCC1DA /* TouchVisualizer.xcconfig */,
+				B9B71C6069C0DD4488D225718025B8F3 /* TouchVisualizer-dummy.m */,
+				771038A8C7537EE7A17D18F0B3377C8C /* TouchVisualizer-prefix.pch */,
+				BBEE8610A703EF7A2C0DB2C4F47C50A4 /* TouchVisualizer-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TouchVisualizer";
+			sourceTree = "<group>";
+		};
+		B8F416270C4A030CCBCB3F61CB7DF6B0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F06FFD51286AD9891A2EF93E04B82A38 /* Info.plist */,
+				55672136507D0B2BABFEFE9AF1F92D4D /* ResourceBundle-TTGEmojiRate-Info.plist */,
+				CD3DE13393D97284D0226B7304076999 /* TTGEmojiRate.modulemap */,
+				30252C5E587C950B5D35848E83971713 /* TTGEmojiRate.xcconfig */,
+				B8D26BBF31002BF87A229F97542F3525 /* TTGEmojiRate-dummy.m */,
+				562CFB4B69AB65FF993C1B4A9C837085 /* TTGEmojiRate-prefix.pch */,
+				3732E79D7EB60FFA6F1F63C64C267961 /* TTGEmojiRate-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TTGEmojiRate";
+			sourceTree = "<group>";
+		};
+		C252357CCF497D0FA4300EA6B1192749 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC9E1909977ACF48DD29208D3F45FA2C /* Pods-Eatery Star */,
+				2911C9C9A013F7A11687C5F878592999 /* Pods-Eatery StarTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C9D40FD09E3F18C2760DBD23CCD00613 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				32C366B470F3035C9F982185130F5E4A /* AMTagListView.modulemap */,
+				A6FF0AE3BA518D0AAD76D94B53B9234A /* AMTagListView.xcconfig */,
+				2A4B32A282737D8CFA125E9D66D4B7FC /* AMTagListView-dummy.m */,
+				8AAD4FC7CCE9CB3A7C3E2845C6DED313 /* AMTagListView-prefix.pch */,
+				47384F165D92208DA370D85FDA701C13 /* AMTagListView-umbrella.h */,
+				21A2D775574AC67833A3ACD10658F978 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AMTagListView";
+			sourceTree = "<group>";
+		};
+		CC9E1909977ACF48DD29208D3F45FA2C /* Pods-Eatery Star */ = {
+			isa = PBXGroup;
+			children = (
+				8D38BF545E144FD85BDD470983C87BE2 /* Info.plist */,
+				2AE118DEE80E0FB1868AA4E6BE375B0F /* Pods-Eatery Star.modulemap */,
+				021A014264160A36A2D14CFFDB3F1E11 /* Pods-Eatery Star-acknowledgements.markdown */,
+				EC72B1A93837F03BAC593E953010E25A /* Pods-Eatery Star-acknowledgements.plist */,
+				943BB91CA71BA78E261926ACC2CB9B24 /* Pods-Eatery Star-dummy.m */,
+				063C83D71981BA51BD169C3EFE442640 /* Pods-Eatery Star-frameworks.sh */,
+				C5D057783EBFBB232B96D4E88B56CA35 /* Pods-Eatery Star-resources.sh */,
+				5846AB1FEF589FFB9E04E2BC96C15773 /* Pods-Eatery Star-umbrella.h */,
+				BF8CAC68E69766F1D9705887270DB7E1 /* Pods-Eatery Star.debug.xcconfig */,
+				C12AE9A84137D445A05D6CDFEDE03AEB /* Pods-Eatery Star.release.xcconfig */,
+			);
+			name = "Pods-Eatery Star";
+			path = "Target Support Files/Pods-Eatery Star";
+			sourceTree = "<group>";
+		};
+		CF8E78309E6836B66CC365113DBE87CF /* TouchVisualizer */ = {
+			isa = PBXGroup;
+			children = (
+				55113383FA4F27E246BB7BACA8C0E465 /* Configuration.swift */,
+				158168FF46EA0383C81899C69794EC63 /* TouchView.swift */,
+				B17C8F5B0166A98CA95CDACD77F2EDAE /* UIWindow+Swizzle.swift */,
+				2F8D97EF4EA916AF1F6ECD16C5977911 /* Visualizer.swift */,
+				87983EBFAED956E6B9B9C77340D25714 /* Support Files */,
+			);
+			path = TouchVisualizer;
+			sourceTree = "<group>";
+		};
+		E2B758F7C141B71B389E06F4A9F90AB5 /* TTGEmojiRate */ = {
+			isa = PBXGroup;
+			children = (
+				70C987ADEF318A9E88DD05C369C30E42 /* EmojiRateView.swift */,
+				3445788487E5A2FDBD10E1BDA906607A /* TTGEmojiRate.h */,
+				B8F416270C4A030CCBCB3F61CB7DF6B0 /* Support Files */,
+			);
+			path = TTGEmojiRate;
+			sourceTree = "<group>";
+		};
+		E53E27B6C609C319DB7C6C724DA5B053 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				39F946AA0AF61F8EFA5F2108093F8E82 /* AMTagListView */,
+				46451A1DF041EC35233606F89516F95F /* M13Checkbox */,
+				870C75BF6920424CB9C48417D0E226A7 /* RainbowNavigation */,
+				78E46AC9B837F630327DAFB28BC327A4 /* SCLAlertView */,
+				CF8E78309E6836B66CC365113DBE87CF /* TouchVisualizer */,
+				E2B758F7C141B71B389E06F4A9F90AB5 /* TTGEmojiRate */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F0CE6893999C3B9B3FB8D5E224AE16EE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				022C1CD802D8BEAA73A2DCBE1F4016B6 /* Info.plist */,
+				BA2A5C668C4A04A88316ECC8EBB6D8EF /* M13Checkbox.modulemap */,
+				C7B39781067C269B5CC4D703FF050F75 /* M13Checkbox.xcconfig */,
+				4CCB86FE2ABD4F7A4BB7D76BABB2BC6C /* M13Checkbox-dummy.m */,
+				C116D83E96433D3E581FE3F582F79A96 /* M13Checkbox-prefix.pch */,
+				985292D96F4224192040A73C182CD907 /* M13Checkbox-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/M13Checkbox";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		187381091F633F98767338A76D1CE43B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EF0ADF5CD209C22A51B74ECE5264B63 /* RainbowNavigation-umbrella.h in Headers */,
+				BF6288CCDB2CC442332096969FB1A1C6 /* RainbowNavigation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BDE6CF2826CA32A7BEF591F6C331189 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EE4DDFDC320EAC277D047183CBB195F /* SCLAlertView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		227E3CBCC55A04FCCD8C019832A11234 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF82975857F88C2BCC8C5CABDADD06A2 /* M13Checkbox-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39FC7DCCBC3CC870D1671F34C77F75C2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EFCDB20121FD4408DAD3AAC3858BDF0 /* Pods-Eatery Star-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47D1E664334EE9E94D071A27EE01A18A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E51AFB835A686CD7A857580CBBC22905 /* TouchVisualizer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51A2CD26892B61BA1CA26E7BEE3D8C2D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A87AE7D2A13E02ED41F5A4D3033594C /* Pods-Eatery StarTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EB146B0EC7D9CEFE6ECEA5D44737B15 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A06AACC5E6E1DCF8139BD8C8139E5774 /* TTGEmojiRate-umbrella.h in Headers */,
+				777AB6C92CB6DFFEDD8E5CEEDCBA81EF /* TTGEmojiRate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5D03FD6B94EAD6AAB0A38B997B68CDE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				019916680C1A19D9BC92A5411A6A358E /* AMTagListView-umbrella.h in Headers */,
+				A8BA01DF5817C77025379C44896FCE85 /* AMTagListView.h in Headers */,
+				77BEF1CFB06B83C1BF25D1A0C5822D12 /* AMTagView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		10A11588D376AC667704A35095493E81 /* Pods-Eatery Star */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 663377BD0EA7E897A09FB0E13A7F0605 /* Build configuration list for PBXNativeTarget "Pods-Eatery Star" */;
+			buildPhases = (
+				C0A55CD8033F8CA6AA43594CC7FD669C /* Sources */,
+				878567BB27CD681B34A075731C323047 /* Frameworks */,
+				39FC7DCCBC3CC870D1671F34C77F75C2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				946E0232C77FA9669CBD188CBA5ECAA5 /* PBXTargetDependency */,
+				F1B02DE461BC2204A4614C17AC593A71 /* PBXTargetDependency */,
+				82F3B2615E9A7F56CDAE0F6315C0ADE5 /* PBXTargetDependency */,
+				88FE204D582A107851D8C7723ED0E53B /* PBXTargetDependency */,
+				8050A7E28C693D9D61E4CA8CD70CDEE4 /* PBXTargetDependency */,
+				DC637D441C1F12EDF3424E5E458E86A6 /* PBXTargetDependency */,
+			);
+			name = "Pods-Eatery Star";
+			productName = "Pods-Eatery Star";
+			productReference = 584E432B8E8EABCC998B88CF0DEBE479 /* Pods_Eatery_Star.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1645BEB4C9526D282AB0AE9C7A3E9F38 /* TouchVisualizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7D184CB4F17175555ED5F6F81A0CFC4 /* Build configuration list for PBXNativeTarget "TouchVisualizer" */;
+			buildPhases = (
+				0C16D5FE6CB8FEBDC10E89522AC23D79 /* Sources */,
+				68ADCA6A806E965723BFD4A49E3F30BB /* Frameworks */,
+				47D1E664334EE9E94D071A27EE01A18A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TouchVisualizer;
+			productName = TouchVisualizer;
+			productReference = 3CED9E0BA15F2E0A02472F6D5777708F /* TouchVisualizer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		225C378E23FBF15F782EEE3C6BCDFA25 /* Pods-Eatery StarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 428A39408C286142BB4C8D566FDE9BF0 /* Build configuration list for PBXNativeTarget "Pods-Eatery StarTests" */;
+			buildPhases = (
+				1D239E2252A59BA0F9D949A1082C2C1E /* Sources */,
+				6F84E85A8E4808B3CEAC2597D6EA0CC1 /* Frameworks */,
+				51A2CD26892B61BA1CA26E7BEE3D8C2D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Eatery StarTests";
+			productName = "Pods-Eatery StarTests";
+			productReference = AA285099314FC089F33B06574C937441 /* Pods_Eatery_StarTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		35F5A4A6B702FC5C62E0A76D67F3B6B3 /* AMTagListView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0177421353D6B453DFB57BF15E31038E /* Build configuration list for PBXNativeTarget "AMTagListView" */;
+			buildPhases = (
+				9DBCC1F3447B949DB4BCBE73850BF3FC /* Sources */,
+				639B8DE1E585020F93F4DD5EF3EEFC6A /* Frameworks */,
+				D5D03FD6B94EAD6AAB0A38B997B68CDE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AMTagListView;
+			productName = AMTagListView;
+			productReference = C096558F34EBC7BE5E990F158546642C /* AMTagListView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		62EDEA5CCC900B46027AB2B69A5A1F93 /* RainbowNavigation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C13934F07F3D141398E91E2637BC0FD /* Build configuration list for PBXNativeTarget "RainbowNavigation" */;
+			buildPhases = (
+				73633E1B54584A72AC15656EEAE92FBA /* Sources */,
+				2B2EC289872EBD18454A99A9CA3864CD /* Frameworks */,
+				187381091F633F98767338A76D1CE43B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RainbowNavigation;
+			productName = RainbowNavigation;
+			productReference = 044CA2703A0EC19504C7311FBE79AF8A /* RainbowNavigation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		857B0FE7EA232B173EA01135C4B3EC9A /* TTGEmojiRate-TTGEmojiRate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A678681E734B9F0E9F638EE7DD4FB4E /* Build configuration list for PBXNativeTarget "TTGEmojiRate-TTGEmojiRate" */;
+			buildPhases = (
+				10D9350EDD137EF5AB2B68407C2B4A1F /* Sources */,
+				5D6394589CE17069F2703FFE5581C293 /* Frameworks */,
+				607C34EEB098F0AB4247C58D4C4DDF32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TTGEmojiRate-TTGEmojiRate";
+			productName = "TTGEmojiRate-TTGEmojiRate";
+			productReference = 9D237446CE20D8DBC4E70C7175B270F0 /* TTGEmojiRate.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		D13DAF74474AB8BF36CDECE29F1288C6 /* TTGEmojiRate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AC6049B99DC25EF605A51C6702B7454 /* Build configuration list for PBXNativeTarget "TTGEmojiRate" */;
+			buildPhases = (
+				7BD46EAEFA484D379A74A985B73B57FF /* Sources */,
+				FBBEEFFA1ECF21FA278CDBE7023AB52B /* Frameworks */,
+				23C220B8EBDD683DE3D0452BFD16A511 /* Resources */,
+				6EB146B0EC7D9CEFE6ECEA5D44737B15 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				594CB5F118A0A521CEDC1B41093B25B3 /* PBXTargetDependency */,
+			);
+			name = TTGEmojiRate;
+			productName = TTGEmojiRate;
+			productReference = 8FD0DD977F31E90513ACC4D806343D17 /* TTGEmojiRate.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D425490E2F8C3101CC0B7B6C1C5BD56B /* SCLAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E4985402E3F74F231A45229AFA63E98 /* Build configuration list for PBXNativeTarget "SCLAlertView" */;
+			buildPhases = (
+				5CEBCC6ADFAD68D97BBC2097BEA57DEC /* Sources */,
+				198539A31C9CB139F1661F481E7DBB17 /* Frameworks */,
+				1BDE6CF2826CA32A7BEF591F6C331189 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SCLAlertView;
+			productName = SCLAlertView;
+			productReference = 955D40D238A14AB59AF4BC5C8927F3E5 /* SCLAlertView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ED3AFC0E9905CA362D94DA496A23E2DD /* M13Checkbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDB7EEF73FAC4784FB37CAC86AD636EC /* Build configuration list for PBXNativeTarget "M13Checkbox" */;
+			buildPhases = (
+				543C4BC81F4224D82B158B6D814B8FA1 /* Sources */,
+				58399B1798FDC7D17507985A02D94969 /* Frameworks */,
+				227E3CBCC55A04FCCD8C019832A11234 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = M13Checkbox;
+			productName = M13Checkbox;
+			productReference = E7F18BC6AB2D60B18BB9DCACD63499D3 /* M13Checkbox.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 69ED479BC1F693AFE57477306F89F5A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35F5A4A6B702FC5C62E0A76D67F3B6B3 /* AMTagListView */,
+				ED3AFC0E9905CA362D94DA496A23E2DD /* M13Checkbox */,
+				10A11588D376AC667704A35095493E81 /* Pods-Eatery Star */,
+				225C378E23FBF15F782EEE3C6BCDFA25 /* Pods-Eatery StarTests */,
+				62EDEA5CCC900B46027AB2B69A5A1F93 /* RainbowNavigation */,
+				D425490E2F8C3101CC0B7B6C1C5BD56B /* SCLAlertView */,
+				1645BEB4C9526D282AB0AE9C7A3E9F38 /* TouchVisualizer */,
+				D13DAF74474AB8BF36CDECE29F1288C6 /* TTGEmojiRate */,
+				857B0FE7EA232B173EA01135C4B3EC9A /* TTGEmojiRate-TTGEmojiRate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23C220B8EBDD683DE3D0452BFD16A511 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3179F4D2534E848707DE54637070A919 /* TTGEmojiRate.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		607C34EEB098F0AB4247C58D4C4DDF32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C16D5FE6CB8FEBDC10E89522AC23D79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				696D23440B7D8922DA794B5D60E257C1 /* Configuration.swift in Sources */,
+				BD9965172DBDD04B4EECB8AE3A0A73CD /* TouchView.swift in Sources */,
+				7DE07C03EB07FE5FA9C388B05915F40C /* TouchVisualizer-dummy.m in Sources */,
+				A3B6A8A51DE1AD2CB29A97CD36305900 /* UIWindow+Swizzle.swift in Sources */,
+				8DA8D3EFF95C9DC581278E98F5EF3492 /* Visualizer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10D9350EDD137EF5AB2B68407C2B4A1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D239E2252A59BA0F9D949A1082C2C1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCF649FF4863A252ECA812F92F5F4E94 /* Pods-Eatery StarTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		543C4BC81F4224D82B158B6D814B8FA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1614233200F77EEC7A5AEEB73F97FD04 /* M13Checkbox+IB.swift in Sources */,
+				2161CB44569782E42E45439692FBE3ED /* M13Checkbox-dummy.m in Sources */,
+				8002901EEAC6026FB9EA6777BC8B1C0D /* M13Checkbox.swift in Sources */,
+				7A6D04E6391AB243F35BAE217FF6F81D /* M13CheckboxAnimationPresets.swift in Sources */,
+				89746AFED1601736D8E1F149AABD1A40 /* M13CheckboxBounceManager.swift in Sources */,
+				F44047DF453E3DCEE6C2D09BC695AB39 /* M13CheckboxDotManager.swift in Sources */,
+				305133BCAA8380E5E6E9AF4FE3AEB087 /* M13CheckboxDotPathPresets.swift in Sources */,
+				84E341BC8535DD01582617F2C0DA35BD /* M13CheckboxExpandManager.swift in Sources */,
+				BC3B9E7AFBEDC160E284B9DE85BBC0FF /* M13CheckboxFadeManager.swift in Sources */,
+				096EFF0F52924F21FDCB53AB634268BB /* M13CheckboxFillManager.swift in Sources */,
+				F31B4CB5FED9CA97A27BD9EA00E2AFB7 /* M13CheckboxFlatManager.swift in Sources */,
+				036F34CEEB075B4967E66B39F30F0770 /* M13CheckboxGestureRecognizer.swift in Sources */,
+				3391A826E404FE0E7CE9C7691AD35D85 /* M13CheckboxManager.swift in Sources */,
+				4E99830DDC4A9A73AFEFBAC6A631CFF9 /* M13CheckboxPathPresets.swift in Sources */,
+				2D39AFF4DCB31D402488B07909551F55 /* M13CheckboxSpiralManager.swift in Sources */,
+				928EBAF19E6D4739410ACCC4DE0249F5 /* M13CheckboxSpiralPathPresets.swift in Sources */,
+				CD7C552ACD6156D56AE4BE1F228CD688 /* M13CheckboxStrokeManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CEBCC6ADFAD68D97BBC2097BEA57DEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D9578E518EA96ECDBC116657F79F009 /* Info.plist in Sources */,
+				796127E442AF6CB5E2D3DD1A8EE7778A /* SCLAlertView-dummy.m in Sources */,
+				D85AE9CB837A689D75BF4890540F0990 /* SCLAlertView.swift in Sources */,
+				44C7A6EE07D9C4687D1262C6CBD9526C /* SCLExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73633E1B54584A72AC15656EEAE92FBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04376C5E8073DED8DAC7DB54D56FE10F /* Info.plist in Sources */,
+				00EDE1AEDDEA8E43ADC6D9ECDBFDD24E /* RainbowColorSource.swift in Sources */,
+				11B4A0A92C257B7BE3D021E114166ED7 /* RainbowDragPop.swift in Sources */,
+				1F2D720D036E518E3E6E2B183F8689C9 /* RainbowNavigation-dummy.m in Sources */,
+				790550E8C86322C84E63DBC81FAE8AD6 /* RainbowNavigation.swift in Sources */,
+				BCAB95C02A0BC12BA81BAAA0DD3F9441 /* RainbowPopAnimator.swift in Sources */,
+				739371F1B1FACD587F4CA49446FDFDC9 /* RainbowPushAnimator.swift in Sources */,
+				A1DF794D8F22D22B6954FA2D6369EB91 /* UINavigationBar+Rainbow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BD46EAEFA484D379A74A985B73B57FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC45D27AD6E664220BAA9C2697303455 /* EmojiRateView.swift in Sources */,
+				11B1DBAE4E7686A4BF9443B5EB6E7C58 /* TTGEmojiRate-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DBCC1F3447B949DB4BCBE73850BF3FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B94A10D56FC424B25056D629AEBE7E00 /* AMTagListView-dummy.m in Sources */,
+				61D57076AF4FD3AAC8FD0E3760B38613 /* AMTagListView.m in Sources */,
+				888AD659FB3EE27273489249519FF4E1 /* AMTagView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0A55CD8033F8CA6AA43594CC7FD669C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F350FBC892615E6C4BB8D4E4C79EF163 /* Pods-Eatery Star-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		594CB5F118A0A521CEDC1B41093B25B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "TTGEmojiRate-TTGEmojiRate";
+			target = 857B0FE7EA232B173EA01135C4B3EC9A /* TTGEmojiRate-TTGEmojiRate */;
+			targetProxy = 4A33FC26B291BD88B8773BB93B8C3A78 /* PBXContainerItemProxy */;
+		};
+		8050A7E28C693D9D61E4CA8CD70CDEE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TTGEmojiRate;
+			target = D13DAF74474AB8BF36CDECE29F1288C6 /* TTGEmojiRate */;
+			targetProxy = BE694C225A94D8ABAF1D31A393C98B55 /* PBXContainerItemProxy */;
+		};
+		82F3B2615E9A7F56CDAE0F6315C0ADE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RainbowNavigation;
+			target = 62EDEA5CCC900B46027AB2B69A5A1F93 /* RainbowNavigation */;
+			targetProxy = 31323D6F09BD79FC62C68E8B642FBB75 /* PBXContainerItemProxy */;
+		};
+		88FE204D582A107851D8C7723ED0E53B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SCLAlertView;
+			target = D425490E2F8C3101CC0B7B6C1C5BD56B /* SCLAlertView */;
+			targetProxy = 32A1A4DF4558D0801E1FEA97CEEC11E9 /* PBXContainerItemProxy */;
+		};
+		946E0232C77FA9669CBD188CBA5ECAA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AMTagListView;
+			target = 35F5A4A6B702FC5C62E0A76D67F3B6B3 /* AMTagListView */;
+			targetProxy = D8C6C17D10387ED31F2C8444BEBA323C /* PBXContainerItemProxy */;
+		};
+		DC637D441C1F12EDF3424E5E458E86A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TouchVisualizer;
+			target = 1645BEB4C9526D282AB0AE9C7A3E9F38 /* TouchVisualizer */;
+			targetProxy = EA5F613DC3CC919A9B83B83B85BEE78F /* PBXContainerItemProxy */;
+		};
+		F1B02DE461BC2204A4614C17AC593A71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = M13Checkbox;
+			target = ED3AFC0E9905CA362D94DA496A23E2DD /* M13Checkbox */;
+			targetProxy = FBD52FC99A19347A6F87D172A4334F95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		034014829C1E4434983CF3A690C12017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		09F9D6873ECB63B4ADE69A5070BC537B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30252C5E587C950B5D35848E83971713 /* TTGEmojiRate.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TTGEmojiRate";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/TTGEmojiRate/ResourceBundle-TTGEmojiRate-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = TTGEmojiRate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		1D3B32EF3F82284EB84F0D45624A3A84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6FF0AE3BA518D0AAD76D94B53B9234A /* AMTagListView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AMTagListView/AMTagListView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AMTagListView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AMTagListView/AMTagListView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AMTagListView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1FF5FD2CCAE8A1A1088D40F4B04B6227 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E78D1FFBF607B57E56B0A0E11B33C202 /* Pods-Eatery StarTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Eatery StarTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Eatery StarTests/Pods-Eatery StarTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Eatery_StarTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		32435B614813A2F6AE0B7273AF9A1A60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF8CAC68E69766F1D9705887270DB7E1 /* Pods-Eatery Star.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Eatery Star/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Eatery Star/Pods-Eatery Star.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Eatery_Star;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3366ED1C76765938EA3CAE951C2CE463 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C12AE9A84137D445A05D6CDFEDE03AEB /* Pods-Eatery Star.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Eatery Star/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Eatery Star/Pods-Eatery Star.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Eatery_Star;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3C13E9BBC28805DEFB14D8A8F06BE6D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6FF0AE3BA518D0AAD76D94B53B9234A /* AMTagListView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AMTagListView/AMTagListView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AMTagListView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AMTagListView/AMTagListView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AMTagListView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		476B9ADE4EC5495E424DEA74CEC44C4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30252C5E587C950B5D35848E83971713 /* TTGEmojiRate.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TTGEmojiRate";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/TTGEmojiRate/ResourceBundle-TTGEmojiRate-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = TTGEmojiRate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		540E6F64C2D71D4CC32F7029920A47CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7B39781067C269B5CC4D703FF050F75 /* M13Checkbox.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/M13Checkbox/M13Checkbox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/M13Checkbox/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/M13Checkbox/M13Checkbox.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = M13Checkbox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5DE9A39CC6098B5B03CB6517DB05B080 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 755490053C752B2982E659B498BCC1DA /* TouchVisualizer.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TouchVisualizer/TouchVisualizer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TouchVisualizer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TouchVisualizer/TouchVisualizer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TouchVisualizer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6EB115A28F6999EBE07ED85C455FCE37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B5B10BE2694ABBE6C2ED52318F4F59F /* SCLAlertView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SCLAlertView/SCLAlertView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SCLAlertView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SCLAlertView/SCLAlertView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SCLAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8D3E4A68CF74EB6AA054EDD515289941 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7B39781067C269B5CC4D703FF050F75 /* M13Checkbox.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/M13Checkbox/M13Checkbox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/M13Checkbox/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/M13Checkbox/M13Checkbox.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = M13Checkbox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		901057221D79B6752328C2BD8D541476 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12317087ACE1E462DA03728CEE78EC3E /* RainbowNavigation.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RainbowNavigation/RainbowNavigation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RainbowNavigation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RainbowNavigation/RainbowNavigation.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = RainbowNavigation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		912EE31F4E150289F4D9464C81B126AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F07D2796B33BE1D255A0E43D6D1A6B02 /* Pods-Eatery StarTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Eatery StarTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Eatery StarTests/Pods-Eatery StarTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Eatery_StarTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B517EFD21725194DFDB14FDAD5865DE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B5B10BE2694ABBE6C2ED52318F4F59F /* SCLAlertView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SCLAlertView/SCLAlertView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SCLAlertView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SCLAlertView/SCLAlertView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SCLAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B9D635A9ACCC075C65FE8F82D63436B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30252C5E587C950B5D35848E83971713 /* TTGEmojiRate.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TTGEmojiRate/TTGEmojiRate-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TTGEmojiRate/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TTGEmojiRate/TTGEmojiRate.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TTGEmojiRate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C21BFBFD0A0502A687672FDFD0AB9271 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30252C5E587C950B5D35848E83971713 /* TTGEmojiRate.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TTGEmojiRate/TTGEmojiRate-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TTGEmojiRate/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TTGEmojiRate/TTGEmojiRate.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TTGEmojiRate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C7E474A03CAE21F1CB6046E7344C59BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4B49F18FC4006E1658829958603B8F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12317087ACE1E462DA03728CEE78EC3E /* RainbowNavigation.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RainbowNavigation/RainbowNavigation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RainbowNavigation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RainbowNavigation/RainbowNavigation.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = RainbowNavigation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ECB4DAB68CE69EC82356E12F7F5539B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 755490053C752B2982E659B498BCC1DA /* TouchVisualizer.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TouchVisualizer/TouchVisualizer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TouchVisualizer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TouchVisualizer/TouchVisualizer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TouchVisualizer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0177421353D6B453DFB57BF15E31038E /* Build configuration list for PBXNativeTarget "AMTagListView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D3B32EF3F82284EB84F0D45624A3A84 /* Debug */,
+				3C13E9BBC28805DEFB14D8A8F06BE6D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034014829C1E4434983CF3A690C12017 /* Debug */,
+				C7E474A03CAE21F1CB6046E7344C59BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		428A39408C286142BB4C8D566FDE9BF0 /* Build configuration list for PBXNativeTarget "Pods-Eatery StarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				912EE31F4E150289F4D9464C81B126AF /* Debug */,
+				1FF5FD2CCAE8A1A1088D40F4B04B6227 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E4985402E3F74F231A45229AFA63E98 /* Build configuration list for PBXNativeTarget "SCLAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EB115A28F6999EBE07ED85C455FCE37 /* Debug */,
+				B517EFD21725194DFDB14FDAD5865DE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		663377BD0EA7E897A09FB0E13A7F0605 /* Build configuration list for PBXNativeTarget "Pods-Eatery Star" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32435B614813A2F6AE0B7273AF9A1A60 /* Debug */,
+				3366ED1C76765938EA3CAE951C2CE463 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C13934F07F3D141398E91E2637BC0FD /* Build configuration list for PBXNativeTarget "RainbowNavigation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B49F18FC4006E1658829958603B8F9 /* Debug */,
+				901057221D79B6752328C2BD8D541476 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A678681E734B9F0E9F638EE7DD4FB4E /* Build configuration list for PBXNativeTarget "TTGEmojiRate-TTGEmojiRate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09F9D6873ECB63B4ADE69A5070BC537B /* Debug */,
+				476B9ADE4EC5495E424DEA74CEC44C4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AC6049B99DC25EF605A51C6702B7454 /* Build configuration list for PBXNativeTarget "TTGEmojiRate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C21BFBFD0A0502A687672FDFD0AB9271 /* Debug */,
+				B9D635A9ACCC075C65FE8F82D63436B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDB7EEF73FAC4784FB37CAC86AD636EC /* Build configuration list for PBXNativeTarget "M13Checkbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				540E6F64C2D71D4CC32F7029920A47CF /* Debug */,
+				8D3E4A68CF74EB6AA054EDD515289941 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7D184CB4F17175555ED5F6F81A0CFC4 /* Build configuration list for PBXNativeTarget "TouchVisualizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DE9A39CC6098B5B03CB6517DB05B080 /* Debug */,
+				ECB4DAB68CE69EC82356E12F7F5539B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
