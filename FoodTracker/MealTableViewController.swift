@@ -37,12 +37,8 @@ class MealTableViewController: UITableViewController {
         
         // Fetches the appropriate meal for the data source layout.
         let meal = user!.meals[indexPath.row]
-        
         cell.nameLabel.text = meal.name
         cell.photoImageView.image = meal.photo
-        cell.floatRatingView.rating = (meal.tasteRating + meal.healthRating) / 2
-        cell.floatRatingView.editable = false
-        cell.rating.text = String(format: "%.1f", cell.floatRatingView.rating)
         return cell
     }
 

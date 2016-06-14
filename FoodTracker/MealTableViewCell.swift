@@ -5,8 +5,6 @@ class MealTableViewCell: UITableViewCell {
     
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var photoImageView: UIImageView!
-    @IBOutlet weak var floatRatingView: FloatRatingView!
-    @IBOutlet weak var rating: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
