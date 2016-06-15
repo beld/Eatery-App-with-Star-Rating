@@ -90,7 +90,7 @@ class MealTableViewController: UITableViewController {
                 meal.elapsedRatingTime = elapsedTime
                 // updating existing meal
                 user!.meals[selectedIndexPath.row] = meal
-                tableView.reloadRowsAtIndexPaths([selectedIndexPath], withRowAnimation: .None)
+                tableView.reloadData()
                 // reset navigation bar to transparent
                 self.navigationController?.navigationBar.lt_setBackgroundColor(UIColor.clearColor().colorWithAlphaComponent(0))
                 navigationController!.navigationBar.tintColor = UIColor.whiteColor()

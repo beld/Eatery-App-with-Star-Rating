@@ -5,9 +5,16 @@ import SCLAlertView
 class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate{
     // MARK: Properties
     var meal: Meal?
+    var cookingDescription: String = ""
+    let appearance = SCLAlertView.SCLAppearance(
+        kTitleFont: UIFont(name: "HelveticaNeue", size: 22)!,
+        kTextFont: UIFont(name: "HelveticaNeue", size: 14)!,
+        kButtonFont: UIFont(name: "HelveticaNeue-Bold", size: 14)!,
+        kWindowWidth: CGFloat(300),
+        showCloseButton: true
+    )
     
     @IBOutlet weak var scrollView: UIScrollView!
-    @IBOutlet weak var descriptionTextView: UITextView!
     @IBOutlet weak var tasteRatingView: FloatRatingView!
     @IBOutlet weak var healthRatingView: FloatRatingView!
     @IBOutlet weak var fatRatingView: FloatRatingView!
@@ -44,7 +51,7 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
         
         navigationController!.navigationBar.tintColor = UIColor.whiteColor()
         navigationController!.navigationBar.titleTextAttributes =
-            ([NSFontAttributeName: UIFont(name: "BradleyHandITCTT-Bold", size: 15)!,
+            ([NSFontAttributeName: UIFont(name: "ChalkboardSE-Bold", size: 17)!,
                 NSForegroundColorAttributeName: UIColor.whiteColor()])
 
         // Handle the text field’s user input through delegate callbacks.
@@ -66,10 +73,8 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
             fibreRatingView.rating = existingMeal.fibreRating
             difficultyRatingView.rating = existingMeal.difficultyRating
             timeRatingView.rating = existingMeal.timeRating
-            descriptionTextView.text = existingMeal.cookingDescription
+            cookingDescription = existingMeal.cookingDescription
         }
-        
-        descriptionTextView.sizeToFit()
         
         // enable save button only if text field has valid name
         checkValidMealName()
@@ -135,57 +140,61 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
         }
     }
     
+    @IBAction func showRecipe(sender: AnyObject) {
+        let alert = SCLAlertView(appearance: appearance)
+        alert.showInfo(nameTextField.text!, subTitle: cookingDescription, closeButtonTitle: "Bestätigen")
+    }
     @IBAction func tasteButton(sender: AnyObject) {
-        let alert = SCLAlertView()
-        alert.showInfo("Geschmack", subTitle: "Bitte den Geschmack diese Gericht nach Ihren Gunsten bewerten, von 0 bis 5")
+        let alert = SCLAlertView(appearance: appearance)
+        alert.showInfo("Geschmack", subTitle: "Bitte den Geschmack diese Gericht nach Ihren Gunsten bewerten, von 0 bis 5", closeButtonTitle: "Bestätigen")
     }
     
     @IBAction func healthButton(sender: AnyObject) {
-        let alert = SCLAlertView()
-        alert.showInfo("Gesundheit", subTitle: "Wie gesund ist diese Gericht in Ihrer Meinung, von 0 bis 5")
+        let alert = SCLAlertView(appearance: appearance)
+        alert.showInfo("Gesundheit", subTitle: "Wie gesund ist diese Gericht in Ihrer Meinung, von 0 bis 5", closeButtonTitle: "Bestätigen")
     }
     
     @IBAction func fatButton(sender: AnyObject) {
-        let alert = SCLAlertView()
-        alert.showInfo("Fett", subTitle: "Bitte bewerten Sie das Fett dieses Gericht Ihrer Meinung nach, von 0 bis 5")
+        let alert = SCLAlertView(appearance: appearance)
+        alert.showInfo("Fett", subTitle: "Bitte bewerten Sie das Fett dieses Gericht Ihrer Meinung nach, von 0 bis 5", closeButtonTitle: "Bestätigen")
     }
     
     @IBAction func carbButton(sender: AnyObject) {
-        let alert = SCLAlertView()
-        alert.showInfo("Kohlenhydrate", subTitle: "Bitte bewerten Sie das Kohlenhydrat dieses Gericht Ihrer Meinung nach, von 0 bis 5")
+        let alert = SCLAlertView(appearance: appearance)
+        alert.showInfo("Kohlenhydrate", subTitle: "Bitte bewerten Sie das Kohlenhydrat dieses Gericht Ihrer Meinung nach, von 0 bis 5", closeButtonTitle: "Bestätigen")
     }
     
     @IBAction func caloryButton(sender: AnyObject) {
-        let alert = SCLAlertView()
-        alert.showInfo("Kalorien", subTitle: "Bitte bewerten Sie die Kalorien dieses Gericht Ihrer Meinung nach, von 0 bis 5")
+        let alert = SCLAlertView(appearance: appearance)
+        alert.showInfo("Kalorien", subTitle: "Bitte bewerten Sie die Kalorien dieses Gericht Ihrer Meinung nach, von 0 bis 5", closeButtonTitle: "Bestätigen")
     }
     
     @IBAction func energyDensityButton(sender: AnyObject) {
-        let alert = SCLAlertView()
-        alert.showInfo("Energiedichte", subTitle: "Bitte bewerten Sie die Energiedichte (Kilokalorien pro Gramm) dieses Gericht Ihrer Meinung nach, von 0 bis 5")
+        let alert = SCLAlertView(appearance: appearance)
+        alert.showInfo("Energiedichte", subTitle: "Bitte bewerten Sie die Energiedichte (Kilokalorien pro Gramm) dieses Gericht Ihrer Meinung nach, von 0 bis 5", closeButtonTitle: "Bestätigen")
     }
     
     @IBAction func difficultyButton(sender: AnyObject) {
-        let alert = SCLAlertView()
-        alert.showInfo("Schwierigkeit", subTitle: "Bitte bewerten Sie den Schwierigkeitsgrad dieses Mahl zu bereiten, von 0 bis 5")
+        let alert = SCLAlertView(appearance: appearance)
+        alert.showInfo("Schwierigkeit", subTitle: "Bitte bewerten Sie den Schwierigkeitsgrad dieses Mahl zu bereiten, von 0 bis 5", closeButtonTitle: "Bestätigen")
     }
     
     @IBAction func timeButton(sender: AnyObject) {
-        let alert = SCLAlertView()
-        alert.showInfo("Zeit", subTitle: "Bitte bewerten Sie die Zeit, die Sie brauchen diese Mahlzeit zu bereiten, von 0 bis 5")
+        let alert = SCLAlertView(appearance: appearance)
+        alert.showInfo("Zeit", subTitle: "Bitte bewerten Sie die Zeit, die Sie brauchen diese Mahlzeit zu bereiten, von 0 bis 5", closeButtonTitle: "Bestätigen")
     }
     
     @IBAction func sugarButton(sender: AnyObject) {
-        let alert = SCLAlertView()
-        alert.showInfo("Zucker", subTitle: "Bitte bewerten Sie den Zucker dieses Gericht Ihrer Meinung nach, von 0 bis 5")
+        let alert = SCLAlertView(appearance: appearance)
+        alert.showInfo("Zucker", subTitle: "Bitte bewerten Sie den Zucker dieses Gericht Ihrer Meinung nach, von 0 bis 5", closeButtonTitle: "Bestätigen")
     }
     @IBAction func vitaminButton(sender: AnyObject) {
-        let alert = SCLAlertView()
-        alert.showInfo("Kohlenhydrate", subTitle: "Bitte bewerten Sie die Vitamine dieses Gericht Ihrer Meinung nach, von 0 bis 5")
+        let alert = SCLAlertView(appearance: appearance)
+        alert.showInfo("Kohlenhydrate", subTitle: "Bitte bewerten Sie die Vitamine dieses Gericht Ihrer Meinung nach, von 0 bis 5", closeButtonTitle: "Bestätigen")
     }
     @IBAction func fibreButton(sender: AnyObject) {
-        let alert = SCLAlertView()
-        alert.showInfo("Ballaststoffe", subTitle: "Bitte bewerten Sie die Ballaststoffe dieses Gericht Ihrer Meinung nach, von 0 bis 5")
+        let alert = SCLAlertView(appearance: appearance)
+        alert.showInfo("Ballaststoffe", subTitle: "Bitte bewerten Sie die Ballaststoffe dieses Gericht Ihrer Meinung nach, von 0 bis 5", closeButtonTitle: "Bestätigen")
     }
     
     // configure a view controller before it's passed
@@ -204,7 +213,6 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
             let fibreRating = fibreRatingView.rating
             let difficultyRating = difficultyRatingView.rating
             let timeRating = timeRatingView.rating
-            let cookingDescription = descriptionTextView.text ?? ""
             
             // set meal to be passed to MealTableViewController after unwind segue
             meal = Meal(name: name, photo: photo, tasteRating:tasteRating, healthRating: healthRating, fatRating: fatRating, carbRating: carbRating, caloryRating: caloryRating, energyDensityRating: energyDensityRating, sugarRating: sugarRating, vitaminRating: vitaminRating, fibreRating: fibreRating, difficultyRating: difficultyRating, timeRating: timeRating, cookingDescription: cookingDescription, elapsedRatingTime: 0)
